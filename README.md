@@ -1,4 +1,4 @@
-# demov3
+# element-plus-admin
 
 ## Project setup
 ```

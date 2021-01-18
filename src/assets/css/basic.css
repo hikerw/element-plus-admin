@@ -1,0 +1,52 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, 
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, 
+tfoot, thead, tr, th, td ,textarea { margin:0; padding:0;  }
+address,cite,dfn,em,var, i {font-style:normal;}
+body {font-size: 16px; line-height: 1.5; font-family:'PingFangSC-Regular','Microsoft Yahei','simsun','arial','tahoma';  color: #222; background: #F8F8F8; }
+table { border-collapse:collapse; border-spacing:0; }
+h1, h2, h3, h4, h5, h6, th { font-size: 100%; font-weight: normal; }
+button,input,select,textarea{font-size:100%;}
+fieldset,img{border:0;}
+a { text-decoration: none; color: #666; background: none;width: 100%;height: 100%;}
+ul, ol { list-style: none; }
+img,a,button,em,del,strong,var,label,cite,small,time,mark,code,textarea {display: inline-block;}
+body{margin: 0;}
+.focus{ outline:none;}
+.clearfix{ clear: both; content: ""; display: block; overflow: hidden }
+.clear{clear: both;}
+.fl{ float: left; }
+.fr{float: right;}
+.flex{display: flex;}
+.tc{text-align: center;}
+.tl{text-align: left;}
+.tr{text-align: right}
+.f12{font-size: 12px;}
+.f14{font-size: 14px;}
+.f16{font-size: 16px;}
+.f18{font-size: 18px;}
+.f20{font-size: 20px;}
+.f26{font-size: 26px;}
+.f30{font-size: 30px;}
+.c08b{color: #08B963;}
+.c333{color: #333333;}
+.c666{color: #666666; }
+.c999{color: #999999;}
+.white{color: #FFFFFF !important;}
+.bg_white{background-color: #FFFFFF;}
+.bg_green{background-color: #08b963 !important;}
+.mt10{margin-top: 10px;}
+.mt14{margin-top: 14px;}
+.mt18{margin-top: 18px;}
+.mt20{margin-top: 20px;}
+.mt25{margin-top: 25px;}
+.mt80{margin-top: 80px;}
+.mb10{margin-bottom: 10px;}
+.mb55{margin-bottom: 55px;}
+.mr10{margin-right: 10px;}
+.line1{line-height: 1 !important;}
+.border{border-radius: 4px;}
+.translateY{top:50%;transform:translateY(-50%); }
+.center{top: 50%;left: 50%;transform: translate(-50%,-50%); }
+.relative{position: relative;}
+.absolute{position: absolute;}
+button{outline:none;}

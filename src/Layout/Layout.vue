@@ -6,7 +6,11 @@
 			</el-aside>
 			<el-container>
 				<el-header>Header</el-header>
-				<el-main>Main</el-main>
+				<el-main>
+					<div>
+						<router-view></router-view>
+					</div>
+				</el-main>
 			</el-container>
 		</el-container>
 	</div>
@@ -14,6 +18,7 @@
 <script>
 	import menus from './components/menu.vue'
 	export default {
+		name:'Layout',
 		methods: {
 
 		},

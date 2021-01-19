@@ -6,6 +6,6 @@ import './assets/css/basic.css';   //公共样式
 import App from './App.vue';
 
 const app = createApp(App)
-app.use(router)
 app.use(ElementPlus)
+app.use(router)
 app.mount('#app')

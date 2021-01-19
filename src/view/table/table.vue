@@ -1,12 +1,12 @@
 <template>
 	<div>
-		我是首页
+		表格
 	</div>
 </template>
 
 <script>
 	export default{
-		name:'Dashboard'
+		name:'Table'
 	}
 </script>
 

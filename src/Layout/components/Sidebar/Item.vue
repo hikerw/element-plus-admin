@@ -12,7 +12,7 @@ export default {
       default: ''
     }
   },
-  render(h,context) {
+  render() {
 	const icon = this.icon
 	const title = this.title
     const vnodes = []

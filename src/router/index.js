@@ -167,4 +167,10 @@ const router = createRouter({
   scrollBehavior: () => ({ y: 0 }),
   routes: constantRoutes
 })
+
+export function resetRouter() {
+  const newRouter = createRouter()
+  router.matcher = newRouter.matcher // reset router
+}
+
 export default router

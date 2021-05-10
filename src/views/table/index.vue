@@ -1,6 +1,7 @@
 <template>
   <div class="app-container"  >
    <el-table
+		v-loading="listLoading"
       :data="list"
       element-loading-text="Loading"
       border
@@ -49,7 +50,7 @@ export default {
   data() {
     return {
       list: null,
-      // listLoading: false
+      listLoading: false
     }
   },
   created() {
@@ -65,18 +66,13 @@ export default {
 	    return statusMap[status]
 	 },
     fetchData() {
-		// v-loading指令 会莫名的报错 我们这里使用服务方式
-      const loading = this.$loading({
-               lock: true,
-               text: 'Loading',
-               background: 'rgba(255,255,255,0.6)'
-             });
+		this.listLoading=true
       getList().then(response => {
+		  this.listLoading=false
 		  for(let i of response.data.items){
 			  i.type =this.statusFilter(i.status)
 		  }
         this.list = response.data.items
-       loading.close();
       })
     }
   }

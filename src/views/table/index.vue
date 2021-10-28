@@ -1,9 +1,7 @@
 <template>
   <div class="app-container"  >
    <el-table
-		v-loading="listLoading"
       :data="list"
-      element-loading-text="Loading"
       border
       fit
       highlight-current-row
@@ -60,7 +58,7 @@ export default {
 	  statusFilter(status) {
 	    const statusMap = {
 	      published: 'success',
-	      draft: 'gray',
+	      draft: 'info',
 	      deleted: 'danger'
 	    }
 	    return statusMap[status]

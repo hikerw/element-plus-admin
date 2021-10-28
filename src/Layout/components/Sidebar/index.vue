@@ -13,7 +13,7 @@
         mode="vertical"
       >
         <sidebar-item v-for="route in routes" :key="route.path" :item="route" :base-path="route.path" />
-      </el-menu>
+	  </el-menu>
     </el-scrollbar>
   </div>
 </template>

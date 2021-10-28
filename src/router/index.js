@@ -2,7 +2,7 @@ import {createRouter,createWebHashHistory} from 'vue-router'
 
 
 /* Layout */
-import Layout from '@/layout'
+import Layout from '@/Layout/index.vue'
 
 /**
  * Note: sub-menu only appear when route children.length >= 1

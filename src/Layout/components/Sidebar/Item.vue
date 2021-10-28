@@ -1,7 +1,6 @@
 <script>
 export default {
   name: 'MenuItem',
-  functional: true,
   props: {
     icon: {
       type: String,
@@ -26,7 +25,7 @@ export default {
     if (title) {
       vnodes.push(<span>{(title)}</span>)
     }
-    return vnodes
+	return vnodes
   }
 }
 </script>
